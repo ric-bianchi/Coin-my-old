@@ -1,6 +1,3 @@
-
-# ignore archive files
-*.a
 #ignore build-time generated files
 *.plist
 Coin.pc
