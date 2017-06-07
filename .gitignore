@@ -1,0 +1,7 @@
+# ignore object files
+*.o
+# ignore archive files
+*.a
+#ignore Mac OS files
+version.plist*
+

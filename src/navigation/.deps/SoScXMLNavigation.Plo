@@ -1,0 +1,272 @@
+SoScXMLNavigation.lo: SoScXMLNavigation.cpp \
+ ../../include/Inventor/navigation/SoScXMLNavigation.h \
+ ../../include/Inventor/SbBasic.h \
+ ../../include/Inventor/C/errors/debugerror.h \
+ ../../include/Inventor/C/basic.h \
+ ../../include/Inventor/system/inttypes.h /usr/include/inttypes.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/stdint.h \
+ /usr/include/bits/wchar.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ ../../include/Inventor/C/errors/error.h \
+ ../../include/Inventor/C/base/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cassert \
+ /usr/include/assert.h ../../src/tidbitsp.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h ../../include/Inventor/C/tidbits.h \
+ ../../include/Inventor/misc/CoinResources.h \
+ ../../include/Inventor/SbByteBuffer.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstring \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/c++config.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstddef \
+ /usr/include/string.h /usr/include/xlocale.h \
+ ../../include/Inventor/errors/SoDebugError.h \
+ ../../include/Inventor/errors/SoError.h \
+ ../../include/Inventor/SbString.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstdio \
+ ../../include/Inventor/lists/SbIntList.h \
+ ../../include/Inventor/lists/SbPList.h ../../include/Inventor/SoType.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/alloca.h \
+ ../../include/Inventor/navigation/SoScXMLRotateTarget.h \
+ ../../include/Inventor/navigation/SoScXMLNavigationTarget.h \
+ ../../include/Inventor/scxml/ScXMLEventTarget.h \
+ ../../include/Inventor/scxml/ScXMLObject.h \
+ ../../include/Inventor/tools/SbPimplPtr.h \
+ ../../include/Inventor/tools/SbPimplPtr.hpp \
+ ../../include/Inventor/scxml/ScXMLSubObject.h \
+ ../../include/Inventor/SbName.h \
+ ../../include/Inventor/navigation/SoScXMLPanTarget.h \
+ ../../include/Inventor/navigation/SoScXMLZoomTarget.h \
+ ../../include/Inventor/navigation/SoScXMLDollyTarget.h \
+ ../../include/Inventor/navigation/SoScXMLSpinTarget.h \
+ ../../include/Inventor/navigation/SoScXMLSeekTarget.h \
+ ../../include/Inventor/navigation/SoScXMLMiscTarget.h \
+ ../../include/Inventor/navigation/SoScXMLFlightControlTarget.h \
+ ../../include/Inventor/navigation/SoScXMLMotionTarget.h \
+ ../../include/Inventor/C/threads/mutex.h \
+ ../../include/Inventor/C/threads/common.h \
+ ../../src/threads/threadsutilp.h ../../src/config.h ../../src/unconfig.h \
+ ../../src/setup.h ../../include/Inventor/C/threads/sync.h \
+ ../../src/threads/mutexp.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/setjmp.h \
+ ../../src/navigation/common-xml.cpp \
+ ../../src/navigation/examiner-xml.cpp ../../src/navigation/plane-xml.cpp
+
+../../include/Inventor/navigation/SoScXMLNavigation.h:
+
+../../include/Inventor/SbBasic.h:
+
+../../include/Inventor/C/errors/debugerror.h:
+
+../../include/Inventor/C/basic.h:
+
+../../include/Inventor/system/inttypes.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+../../include/Inventor/C/errors/error.h:
+
+../../include/Inventor/C/base/string.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cassert:
+
+/usr/include/assert.h:
+
+../../src/tidbitsp.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../../include/Inventor/C/tidbits.h:
+
+../../include/Inventor/misc/CoinResources.h:
+
+../../include/Inventor/SbByteBuffer.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstring:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstddef:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+../../include/Inventor/errors/SoDebugError.h:
+
+../../include/Inventor/errors/SoError.h:
+
+../../include/Inventor/SbString.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstdio:
+
+../../include/Inventor/lists/SbIntList.h:
+
+../../include/Inventor/lists/SbPList.h:
+
+../../include/Inventor/SoType.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+../../include/Inventor/navigation/SoScXMLRotateTarget.h:
+
+../../include/Inventor/navigation/SoScXMLNavigationTarget.h:
+
+../../include/Inventor/scxml/ScXMLEventTarget.h:
+
+../../include/Inventor/scxml/ScXMLObject.h:
+
+../../include/Inventor/tools/SbPimplPtr.h:
+
+../../include/Inventor/tools/SbPimplPtr.hpp:
+
+../../include/Inventor/scxml/ScXMLSubObject.h:
+
+../../include/Inventor/SbName.h:
+
+../../include/Inventor/navigation/SoScXMLPanTarget.h:
+
+../../include/Inventor/navigation/SoScXMLZoomTarget.h:
+
+../../include/Inventor/navigation/SoScXMLDollyTarget.h:
+
+../../include/Inventor/navigation/SoScXMLSpinTarget.h:
+
+../../include/Inventor/navigation/SoScXMLSeekTarget.h:
+
+../../include/Inventor/navigation/SoScXMLMiscTarget.h:
+
+../../include/Inventor/navigation/SoScXMLFlightControlTarget.h:
+
+../../include/Inventor/navigation/SoScXMLMotionTarget.h:
+
+../../include/Inventor/C/threads/mutex.h:
+
+../../include/Inventor/C/threads/common.h:
+
+../../src/threads/threadsutilp.h:
+
+../../src/config.h:
+
+../../src/unconfig.h:
+
+../../src/setup.h:
+
+../../include/Inventor/C/threads/sync.h:
+
+../../src/threads/mutexp.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+../../src/navigation/common-xml.cpp:
+
+../../src/navigation/examiner-xml.cpp:
+
+../../src/navigation/plane-xml.cpp:

@@ -1,0 +1,8 @@
+SoOffscreenWGLData.lo: SoOffscreenWGLData.cpp ../../src/config.h \
+ ../../src/unconfig.h ../../src/setup.h
+
+../../src/config.h:
+
+../../src/unconfig.h:
+
+../../src/setup.h:

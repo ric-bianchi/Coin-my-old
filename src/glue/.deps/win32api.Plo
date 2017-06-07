@@ -1,0 +1,8 @@
+win32api.lo: win32api.cpp ../../src/config.h ../../src/unconfig.h \
+ ../../src/setup.h
+
+../../src/config.h:
+
+../../src/unconfig.h:
+
+../../src/setup.h:

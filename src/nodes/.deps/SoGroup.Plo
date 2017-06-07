@@ -1,0 +1,570 @@
+SoGroup.lo: SoGroup.cpp ../../include/Inventor/nodes/SoGroup.h \
+ ../../include/Inventor/nodes/SoSubNode.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/xlocale.h ../../include/Inventor/SbName.h \
+ ../../include/Inventor/SbBasic.h \
+ ../../include/Inventor/C/errors/debugerror.h \
+ ../../include/Inventor/C/basic.h \
+ ../../include/Inventor/system/inttypes.h /usr/include/inttypes.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ ../../include/Inventor/C/errors/error.h \
+ ../../include/Inventor/C/base/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ ../../include/Inventor/SoType.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h ../../include/Inventor/fields/SoFieldData.h \
+ ../../include/Inventor/lists/SbList.h /usr/include/assert.h \
+ ../../include/Inventor/nodes/SoNode.h \
+ ../../include/Inventor/fields/SoFieldContainer.h \
+ ../../include/Inventor/misc/SoBase.h \
+ ../../include/Inventor/lists/SoAuditorList.h \
+ ../../include/Inventor/lists/SbPList.h \
+ ../../include/Inventor/misc/SoNotification.h \
+ ../../include/Inventor/misc/SoNotRec.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h ../../include/Inventor/C/base/rbptree.h \
+ ../../include/Inventor/C/tidbits.h ../../src/config.h \
+ ../../src/unconfig.h ../../src/setup.h ../../include/Inventor/SoInput.h \
+ ../../include/Inventor/SoOutput.h ../../include/Inventor/SbString.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstdio \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/c++config.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstddef \
+ ../../include/Inventor/lists/SbIntList.h \
+ ../../include/Inventor/misc/SoChildList.h \
+ ../../include/Inventor/lists/SoNodeList.h \
+ ../../include/Inventor/lists/SoBaseList.h \
+ ../../include/Inventor/actions/SoGetBoundingBoxAction.h \
+ ../../include/Inventor/actions/SoAction.h \
+ ../../include/Inventor/misc/SoTempPath.h \
+ ../../include/Inventor/SoFullPath.h ../../include/Inventor/SoPath.h \
+ ../../include/Inventor/tools/SbPimplPtr.h \
+ ../../include/Inventor/tools/SbPimplPtr.hpp \
+ ../../include/Inventor/lists/SoActionMethodList.h \
+ ../../include/Inventor/lists/SoEnabledElementsList.h \
+ ../../include/Inventor/lists/SoTypeList.h \
+ ../../include/Inventor/actions/SoSubAction.h \
+ ../../include/Inventor/tools/SbLazyPimplPtr.h \
+ ../../include/Inventor/tools/SbLazyPimplPtr.hpp \
+ ../../include/Inventor/SbViewportRegion.h \
+ ../../include/Inventor/SbVec2s.h \
+ ../../include/Inventor/errors/SoDebugError.h \
+ ../../include/Inventor/errors/SoError.h ../../include/Inventor/SbVec2f.h \
+ ../../include/Inventor/SbBox3f.h ../../include/Inventor/SbVec3f.h \
+ ../../include/Inventor/SbByteBuffer.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstring \
+ ../../include/Inventor/SbXfBox3f.h ../../include/Inventor/SbMatrix.h \
+ ../../include/Inventor/actions/SoGetMatrixAction.h \
+ ../../include/Inventor/SbRotation.h ../../include/Inventor/SbVec4f.h \
+ ../../include/Inventor/actions/SoGLRenderAction.h \
+ ../../include/Inventor/lists/SoPathList.h \
+ ../../include/Inventor/actions/SoSearchAction.h \
+ ../../include/Inventor/actions/SoWriteAction.h \
+ ../../include/Inventor/actions/SoAudioRenderAction.h \
+ ../../include/Inventor/errors/SoReadError.h \
+ ../../include/Inventor/actions/SoCallbackAction.h \
+ ../../include/Inventor/elements/SoDecimationTypeElement.h \
+ ../../include/Inventor/elements/SoInt32Element.h \
+ ../../include/Inventor/elements/SoSubElement.h \
+ ../../include/Inventor/elements/SoElement.h \
+ ../../include/Inventor/misc/SoState.h \
+ ../../include/Inventor/nodes/SoComplexity.h \
+ ../../include/Inventor/fields/SoSFEnum.h \
+ ../../include/Inventor/fields/SoSField.h \
+ ../../include/Inventor/fields/SoField.h \
+ ../../include/Inventor/fields/SoSubField.h \
+ ../../include/Inventor/fields/SoSFFloat.h \
+ ../../include/Inventor/elements/SoComplexityTypeElement.h \
+ ../../include/Inventor/nodes/SoDrawStyle.h \
+ ../../include/Inventor/elements/SoDrawStyleElement.h \
+ ../../include/Inventor/fields/SoSFUShort.h \
+ ../../include/Inventor/fields/SoSFInt32.h \
+ ../../include/Inventor/nodes/SoLightModel.h \
+ ../../include/Inventor/elements/SoLazyElement.h \
+ ../../include/Inventor/SbColor.h \
+ ../../include/Inventor/nodes/SoMaterialBinding.h \
+ ../../include/Inventor/elements/SoMaterialBindingElement.h \
+ ../../include/Inventor/nodes/SoNormalBinding.h \
+ ../../include/Inventor/elements/SoNormalBindingElement.h \
+ ../../include/Inventor/nodes/SoPickStyle.h \
+ ../../include/Inventor/elements/SoPickStyleElement.h \
+ ../../include/Inventor/nodes/SoShapeHints.h \
+ ../../include/Inventor/elements/SoShapeHintsElement.h \
+ ../../include/Inventor/fields/SoSFBool.h \
+ ../../include/Inventor/nodes/SoTexture2.h \
+ ../../include/Inventor/nodes/SoTexture.h \
+ ../../include/Inventor/fields/SoSFImage.h \
+ ../../include/Inventor/fields/SoSFString.h \
+ ../../include/Inventor/fields/SoSFColor.h \
+ ../../include/Inventor/elements/SoMultiTextureImageElement.h \
+ ../../include/Inventor/elements/SoReplacedElement.h \
+ ../../include/Inventor/SbVec3s.h \
+ ../../include/Inventor/nodes/SoTextureCoordinateBinding.h \
+ ../../include/Inventor/elements/SoTextureCoordinateBindingElement.h \
+ ../../include/Inventor/nodes/SoUnits.h \
+ ../../include/Inventor/nodes/SoTransformation.h \
+ ../../include/Inventor/elements/SoCacheElement.h \
+ ../../include/Inventor/system/gl.h \
+ ../../include/Inventor/system/gl-headers.h /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h /usr/include/GL/glu.h \
+ ../../src/nodes/SoSubNodeP.h ../../src/rendering/SoGL.h \
+ ../../include/Inventor/C/glue/gl.h ../../src/glue/glp.h \
+ ../../src/base/dict.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstdlib \
+ ../../include/Inventor/C/glue/dl.h ../../src/io/SoWriterefCounter.h \
+ ../../include/Inventor/annex/Profiler/SoProfiler.h \
+ ../../src/profiler/SoNodeProfiling.h \
+ ../../include/Inventor/annex/Profiler/elements/SoProfilerElement.h \
+ ../../include/Inventor/annex/Profiler/SbProfilingData.h \
+ ../../include/Inventor/SbTime.h ../../src/misc/SoDBP.h \
+ ../../include/Inventor/SoDB.h \
+ ../../include/Inventor/sensors/SoSensorManager.h ../../src/misc/SbHash.h \
+ ../../include/Inventor/C/base/memalloc.h ../../src/tidbitsp.h \
+ ../../src/coindefs.h ../../include/boost/detail/workaround.hpp \
+ ../../include/boost/config.hpp ../../include/boost/config/user.hpp \
+ ../../include/boost/config/select_compiler_config.hpp \
+ ../../include/boost/config/compiler/gcc.hpp \
+ ../../include/boost/config/select_stdlib_config.hpp \
+ ../../include/boost/config/no_tr1/utility.hpp \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/utility \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_relops.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_pair.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/move.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/concept_check.h \
+ ../../include/boost/config/stdlib/libstdcpp3.hpp \
+ ../../include/boost/config/select_platform_config.hpp \
+ ../../include/boost/config/platform/linux.hpp \
+ ../../include/boost/config/posix_features.hpp /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ ../../include/boost/config/suffix.hpp ../../src/SbBasicP.h \
+ ../../src/coindefs.h ../../src/profiler/SoProfilerP.h
+
+../../include/Inventor/nodes/SoGroup.h:
+
+../../include/Inventor/nodes/SoSubNode.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+../../include/Inventor/SbName.h:
+
+../../include/Inventor/SbBasic.h:
+
+../../include/Inventor/C/errors/debugerror.h:
+
+../../include/Inventor/C/basic.h:
+
+../../include/Inventor/system/inttypes.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+../../include/Inventor/C/errors/error.h:
+
+../../include/Inventor/C/base/string.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h:
+
+../../include/Inventor/SoType.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+../../include/Inventor/fields/SoFieldData.h:
+
+../../include/Inventor/lists/SbList.h:
+
+/usr/include/assert.h:
+
+../../include/Inventor/nodes/SoNode.h:
+
+../../include/Inventor/fields/SoFieldContainer.h:
+
+../../include/Inventor/misc/SoBase.h:
+
+../../include/Inventor/lists/SoAuditorList.h:
+
+../../include/Inventor/lists/SbPList.h:
+
+../../include/Inventor/misc/SoNotification.h:
+
+../../include/Inventor/misc/SoNotRec.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../../include/Inventor/C/base/rbptree.h:
+
+../../include/Inventor/C/tidbits.h:
+
+../../src/config.h:
+
+../../src/unconfig.h:
+
+../../src/setup.h:
+
+../../include/Inventor/SoInput.h:
+
+../../include/Inventor/SoOutput.h:
+
+../../include/Inventor/SbString.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstdio:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstddef:
+
+../../include/Inventor/lists/SbIntList.h:
+
+../../include/Inventor/misc/SoChildList.h:
+
+../../include/Inventor/lists/SoNodeList.h:
+
+../../include/Inventor/lists/SoBaseList.h:
+
+../../include/Inventor/actions/SoGetBoundingBoxAction.h:
+
+../../include/Inventor/actions/SoAction.h:
+
+../../include/Inventor/misc/SoTempPath.h:
+
+../../include/Inventor/SoFullPath.h:
+
+../../include/Inventor/SoPath.h:
+
+../../include/Inventor/tools/SbPimplPtr.h:
+
+../../include/Inventor/tools/SbPimplPtr.hpp:
+
+../../include/Inventor/lists/SoActionMethodList.h:
+
+../../include/Inventor/lists/SoEnabledElementsList.h:
+
+../../include/Inventor/lists/SoTypeList.h:
+
+../../include/Inventor/actions/SoSubAction.h:
+
+../../include/Inventor/tools/SbLazyPimplPtr.h:
+
+../../include/Inventor/tools/SbLazyPimplPtr.hpp:
+
+../../include/Inventor/SbViewportRegion.h:
+
+../../include/Inventor/SbVec2s.h:
+
+../../include/Inventor/errors/SoDebugError.h:
+
+../../include/Inventor/errors/SoError.h:
+
+../../include/Inventor/SbVec2f.h:
+
+../../include/Inventor/SbBox3f.h:
+
+../../include/Inventor/SbVec3f.h:
+
+../../include/Inventor/SbByteBuffer.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstring:
+
+../../include/Inventor/SbXfBox3f.h:
+
+../../include/Inventor/SbMatrix.h:
+
+../../include/Inventor/actions/SoGetMatrixAction.h:
+
+../../include/Inventor/SbRotation.h:
+
+../../include/Inventor/SbVec4f.h:
+
+../../include/Inventor/actions/SoGLRenderAction.h:
+
+../../include/Inventor/lists/SoPathList.h:
+
+../../include/Inventor/actions/SoSearchAction.h:
+
+../../include/Inventor/actions/SoWriteAction.h:
+
+../../include/Inventor/actions/SoAudioRenderAction.h:
+
+../../include/Inventor/errors/SoReadError.h:
+
+../../include/Inventor/actions/SoCallbackAction.h:
+
+../../include/Inventor/elements/SoDecimationTypeElement.h:
+
+../../include/Inventor/elements/SoInt32Element.h:
+
+../../include/Inventor/elements/SoSubElement.h:
+
+../../include/Inventor/elements/SoElement.h:
+
+../../include/Inventor/misc/SoState.h:
+
+../../include/Inventor/nodes/SoComplexity.h:
+
+../../include/Inventor/fields/SoSFEnum.h:
+
+../../include/Inventor/fields/SoSField.h:
+
+../../include/Inventor/fields/SoField.h:
+
+../../include/Inventor/fields/SoSubField.h:
+
+../../include/Inventor/fields/SoSFFloat.h:
+
+../../include/Inventor/elements/SoComplexityTypeElement.h:
+
+../../include/Inventor/nodes/SoDrawStyle.h:
+
+../../include/Inventor/elements/SoDrawStyleElement.h:
+
+../../include/Inventor/fields/SoSFUShort.h:
+
+../../include/Inventor/fields/SoSFInt32.h:
+
+../../include/Inventor/nodes/SoLightModel.h:
+
+../../include/Inventor/elements/SoLazyElement.h:
+
+../../include/Inventor/SbColor.h:
+
+../../include/Inventor/nodes/SoMaterialBinding.h:
+
+../../include/Inventor/elements/SoMaterialBindingElement.h:
+
+../../include/Inventor/nodes/SoNormalBinding.h:
+
+../../include/Inventor/elements/SoNormalBindingElement.h:
+
+../../include/Inventor/nodes/SoPickStyle.h:
+
+../../include/Inventor/elements/SoPickStyleElement.h:
+
+../../include/Inventor/nodes/SoShapeHints.h:
+
+../../include/Inventor/elements/SoShapeHintsElement.h:
+
+../../include/Inventor/fields/SoSFBool.h:
+
+../../include/Inventor/nodes/SoTexture2.h:
+
+../../include/Inventor/nodes/SoTexture.h:
+
+../../include/Inventor/fields/SoSFImage.h:
+
+../../include/Inventor/fields/SoSFString.h:
+
+../../include/Inventor/fields/SoSFColor.h:
+
+../../include/Inventor/elements/SoMultiTextureImageElement.h:
+
+../../include/Inventor/elements/SoReplacedElement.h:
+
+../../include/Inventor/SbVec3s.h:
+
+../../include/Inventor/nodes/SoTextureCoordinateBinding.h:
+
+../../include/Inventor/elements/SoTextureCoordinateBindingElement.h:
+
+../../include/Inventor/nodes/SoUnits.h:
+
+../../include/Inventor/nodes/SoTransformation.h:
+
+../../include/Inventor/elements/SoCacheElement.h:
+
+../../include/Inventor/system/gl.h:
+
+../../include/Inventor/system/gl-headers.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/GL/glext.h:
+
+/usr/include/GL/glu.h:
+
+../../src/nodes/SoSubNodeP.h:
+
+../../src/rendering/SoGL.h:
+
+../../include/Inventor/C/glue/gl.h:
+
+../../src/glue/glp.h:
+
+../../src/base/dict.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/cstdlib:
+
+../../include/Inventor/C/glue/dl.h:
+
+../../src/io/SoWriterefCounter.h:
+
+../../include/Inventor/annex/Profiler/SoProfiler.h:
+
+../../src/profiler/SoNodeProfiling.h:
+
+../../include/Inventor/annex/Profiler/elements/SoProfilerElement.h:
+
+../../include/Inventor/annex/Profiler/SbProfilingData.h:
+
+../../include/Inventor/SbTime.h:
+
+../../src/misc/SoDBP.h:
+
+../../include/Inventor/SoDB.h:
+
+../../include/Inventor/sensors/SoSensorManager.h:
+
+../../src/misc/SbHash.h:
+
+../../include/Inventor/C/base/memalloc.h:
+
+../../src/tidbitsp.h:
+
+../../src/coindefs.h:
+
+../../include/boost/detail/workaround.hpp:
+
+../../include/boost/config.hpp:
+
+../../include/boost/config/user.hpp:
+
+../../include/boost/config/select_compiler_config.hpp:
+
+../../include/boost/config/compiler/gcc.hpp:
+
+../../include/boost/config/select_stdlib_config.hpp:
+
+../../include/boost/config/no_tr1/utility.hpp:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/utility:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_relops.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_pair.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/move.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/concept_check.h:
+
+../../include/boost/config/stdlib/libstdcpp3.hpp:
+
+../../include/boost/config/select_platform_config.hpp:
+
+../../include/boost/config/platform/linux.hpp:
+
+../../include/boost/config/posix_features.hpp:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+../../include/boost/config/suffix.hpp:
+
+../../src/SbBasicP.h:
+
+../../src/coindefs.h:
+
+../../src/profiler/SoProfilerP.h:
