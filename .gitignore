@@ -3,5 +3,5 @@
 # ignore archive files
 *.a
 #ignore Mac OS files
-version.plist*
+version.plist
 
